@@ -1,7 +1,7 @@
 kind: PersistentVolume
 apiVersion: v1
 metadata:
-  namespace: db2
+  # namespace: db2
   annotations:
     argocd.argoproj.io/sync-wave: "270"
   name: documents
