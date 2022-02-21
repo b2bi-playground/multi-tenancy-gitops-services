@@ -1,6 +1,7 @@
 kind: PersistentVolume
 apiVersion: v1
 metadata:
+  namespace: b2bi
   annotations:
     argocd.argoproj.io/sync-wave: "270"
   name: documents
