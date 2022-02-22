@@ -11,7 +11,7 @@ spec:
   capacity:
     storage: 100Mi
   accessModes:
-    - ReadOnlyMany
+    - ReadWriteMany
   nfs:
     server: fsf-mex0101c-fz.service.softlayer.com
     path: /IBM02SEV2071092_94328/data01/resources
